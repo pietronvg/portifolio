@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVALIAÇÃO</title>
+    <link rel="stylesheet" href="style.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#agendamento">Agendamento</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="conteudo">
+                <h1>PIETRO</h1>
+                <p>Olá! Me chamo Pietro. Sou um programador jovem, sempre em busca de parcerias em projetos e formas de me destacar no ramo. 
+                    Com experiencia em Python, C++ e tambem HTML e CSS, sou um profissional que transforma ideias em realidade com agilidade e qualidade, sempre focado em entregar resultados excepcionais.
+                    Procuro parcerias, freelancers ou oportunidades em projetos que exigem criatividade, inovação e código de alta performance.
+                    Me chame aqui clicando no botao abaixo ou nas minhas redes sociais!
+                </p>
+                <button id="botao">
+                     AGENDAR
+                </button>
+            </div>
+        </section>
+        <img class="img-container" src="./imgperfil.jpg" width="400px" height="50px"   alt="">
+        <script>
+            document.getElementById("botao").onclick = function() {
+                window.location.href = "paginadeformulario.html";
+            };
+        </script>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Insta: @novagx.<\> </p>
+            <p>Telefone: (14) 98818-3961</p>
+            <p>E-mail: pietro.contact77@gmail.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
